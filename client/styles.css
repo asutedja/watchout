@@ -2,7 +2,11 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
-
+body {
+  background: url('http://b68389.medialib.glogster.com/media/e316c47bd6bc507f055fd4870315f379463433af1bf04d3e56e1e31e5ccfe12a/bikini-bottom-spongebob-squarepants-116963-1024-768.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .board {
   border-width: 15px;
