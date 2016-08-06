@@ -15,7 +15,7 @@ var svg = d3.selectAll('.board')
     .append('svg')
     .attr('height', 630)
     .attr('width', 720)
-    .attr('position', 'center');
+    .attr('position', 'relative');
 
 
 var drag = d3.drag()
@@ -128,7 +128,8 @@ d3.interval(function() {
 //   }
 // , 10);
 
-d3.select('svg').html('<defs><pattern id="circles-1" patternUnits="objectBoundingBox" width="30" height="30"><image xlink:href="http://media2.giphy.com/media/SwWXo32l7mfaU/giphy.gif" x="0" y="0" width="30" height="30"></image></pattern><pattern id="circles-2" patternUnits="objectBoundingBox" width="50" height="50"><image xlink:href="http://myfirstchat.com/myfirstworld/aug13/3910.gif" x="0" y="0" width="50" height=""></image></pattern></defs>').append();
+d3.select('svg')
+.html('<defs><pattern id="circles-1" patternUnits="objectBoundingBox" width="30" height="30"><image xlink:href="http://media2.giphy.com/media/SwWXo32l7mfaU/giphy.gif" x="0" y="0" width="30" height="30"></image></pattern><pattern id="circles-2" patternUnits="objectBoundingBox" width="50" height="50"><image xlink:href="http://myfirstchat.com/myfirstworld/aug13/3910.gif" x="0" y="0" width="50" height="50"></image></pattern></defs>').append();
 
 
 setInterval(function () {
