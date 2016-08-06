@@ -3,3 +3,20 @@
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
 
+
+.board {
+  border-width: 15px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  left: 400px;
+  padding-bottom: 0px;
+/*fix white space at bottom */
+}
+
+.mouse {
+  fill: blue;
+  z-index: -1;
+  position: relative;
+
+}
