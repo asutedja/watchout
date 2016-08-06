@@ -11,12 +11,19 @@ Feel free to use it if you like. */
   position: absolute;
   left: 400px;
   padding-bottom: 0px;
-/*fix white space at bottom */
+  background: url('http://media2.giphy.com/media/otJNtCwSVwELK/giphy.gif');
+  background-repeat: no-repeat;
+  background-size:  720px 635px;
 }
 
 .mouse {
   fill: blue;
   z-index: -1;
-  position: relative;
+
+}
+
+.enemies {
+  height: 100%;
+  width: 100%;
 
 }
